@@ -178,21 +178,21 @@ const portfolio = [
     {
         title:'Truck Rental Webpage',
         photo:'./images/truck.jpg',
-        description:'Website template using HTML, css, javascript, bootsrap'
+        description:'This webpage was created during my internship at Alta PH, with a focus on front-end development.'
     },
     {
         title:'Restaurant Webpage',
         photo:'./images/resto.jpg',
-        description:'Website template using HTML, css, javascript, bootsrap'
+        description:'This webpage was created during my internship at Alta PH, with a focus on front-end development.'
     },
     {
         title:'Spa Webpage',
         photo:'./images/spa.jpg',
-        description:'Website template using HTML, css, javascript, bootsrap'
+        description:'This webpage was created during my internship at Alta PH, with a focus on front-end development.'
     },
     {
         title:'wedding Event Webpage',
         photo:'./images/wedding.jpg',
-        description:'Website template using HTML, css, javascript, bootsrap'
+        description:'This webpage was created during my internship at Alta PH, with a focus on front-end development.'
     },
 ];

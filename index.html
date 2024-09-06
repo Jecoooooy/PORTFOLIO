@@ -188,7 +188,7 @@
             <div id="dialog_content">
                 <img id="dialog_img" src="" alt="">
             </div>
-            <ul class="circles">
+            <ul class="circles" >
                 <li></li>
                 <li></li>
                 <li></li>
@@ -211,14 +211,20 @@
             let close = document.getElementById('close')
             close.addEventListener('click',
             function(){
-                console.log('test');
+                
                 document.getElementById('dialog_content').classList.remove('show')
+                
                 setTimeout(() => {
                     document.getElementById('dialog').style.opacity = '0'
+                    document.body.classList.remove('no-scroll');
                     setTimeout(() => {
                         document.getElementById('dialog').style.display = 'none'
+                        document.getElementById('dialog_content').classList.remove('webDialog')
                     }, 500);
                 }, 500);
+
+
+
             })
             
         </script>

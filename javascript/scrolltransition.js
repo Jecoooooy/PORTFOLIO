@@ -25,23 +25,23 @@ const navGetInTouch = document.getElementById('navGetInTouch')
 
 navHome.addEventListener('click', function() {
     const targetPosition = mainPage.offsetTop ;
-    smoothScrollTo(targetPosition, 2000); 
+    smoothScrollTo(targetPosition, 1000); 
 });
 navAbout.addEventListener('click', function() {
     const targetPosition = aboutSection.offsetTop -50;
-    smoothScrollTo(targetPosition, 2000); 
+    smoothScrollTo(targetPosition, 1000); 
 });
 navExperience.addEventListener('click', function() {
-    const targetPosition = experienceSection.offsetTop -50;
-    smoothScrollTo(targetPosition, 2000); 
+    const targetPosition = experienceSection.offsetTop +50;
+    smoothScrollTo(targetPosition, 1000); 
 });
 navPortfolio.addEventListener('click', function() {
     const targetPosition = portfolioSection.offsetTop -50;
-    smoothScrollTo(targetPosition, 2000); 
+    smoothScrollTo(targetPosition, 1000); 
 });
 navGetInTouch.addEventListener('click', function() {
     const targetPosition = GetInTouchSection.offsetTop -50;
-    smoothScrollTo(targetPosition, 2000); 
+    smoothScrollTo(targetPosition, 1000); 
 });
 
 

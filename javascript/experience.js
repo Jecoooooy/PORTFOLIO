@@ -11,6 +11,7 @@ for (let index = 0; index < experience.length; index++) {
     timeline_content.id = 'experience' + (index+1)
 
     timeline_content.addEventListener('click', function(){
+        document.body.classList.add('no-scroll');
         let dialog = document.getElementById('dialog')
         let dialog_content = document.getElementById('dialog_content')
         dialog.style.display = 'block'
