@@ -177,9 +177,9 @@
                     </div>
                 </div>
             </section>
-            <footer class="primary">
+            <footer class="primary" id="footer">
                 <div class="text-center">
-                    © 2024 by Jerico B. Bencito - This project is created using Vanilla HTML, CSS, and JavaScript website! 
+                    © 2024 by Jerico B. Bencito - This project is created using Vanilla HTML, CSS, and JavaScript 
                 </div>
             </footer>
         </main>
@@ -208,6 +208,10 @@
         <script src="./javascript/portfolio.js"></script>
         <script src="./javascript/slide_transition.js"></script>
         <script>
+            setTimeout(() => {
+                document.getElementById('footer').style.bottom = '0px'
+            }, 2000);
+
             let close = document.getElementById('close')
             close.addEventListener('click',
             function(){

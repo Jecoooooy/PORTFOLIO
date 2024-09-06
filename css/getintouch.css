@@ -1,9 +1,11 @@
 #get_in_touch{
     min-height: 50vh;  
     padding-bottom: 10vh ;
-    background: linear-gradient(180deg, #B0BEC5,#ECEFF1);
+    background: linear-gradient(180deg,#212121, #B0BEC5);
     overflow: hidden;
+    position: relative;
 }
+
 
 .map-container {
     position: relative;

@@ -32,7 +32,7 @@ navAbout.addEventListener('click', function() {
     smoothScrollTo(targetPosition, 1000); 
 });
 navExperience.addEventListener('click', function() {
-    const targetPosition = experienceSection.offsetTop +50;
+    const targetPosition = experienceSection.offsetTop ;
     smoothScrollTo(targetPosition, 1000); 
 });
 navPortfolio.addEventListener('click', function() {
