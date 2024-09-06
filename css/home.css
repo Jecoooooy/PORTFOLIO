@@ -14,11 +14,15 @@
     overflow: hidden;
 }
 
+#welcome{
+    padding-bottom: 5vh;
+}
 .introduction{
     max-width: 1000px;
     width: 100%;
     font-size: larger;
-    padding-top: 50px;
+    padding-top: 10vh;
+    line-height: 25px;
 }
 
 
