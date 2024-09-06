@@ -128,7 +128,7 @@ const experience = [
             title: 'Office Staff (Software Developer)',
             company: 'HRD Singapore Pte., Ltd.',
             address:'Housing/Production Industry',
-            logo:'./images/hrd.jpg',
+            logo:'../images/hrd.jpg',
             content:'',
             alt:'No Photo Available'
 
@@ -139,7 +139,7 @@ const experience = [
             title: 'Owner',
             company: 'PumpHouse Fitness Gym',
             address:'103 Pob. II Gen. E. Aguinaldo, Cavite',
-            logo:'./images/ph.png',
+            logo:'../images/ph.png',
             content:'./images/ph3.jpg',
             alt:'No Photo Available'
         },
@@ -149,7 +149,7 @@ const experience = [
             title: 'Regional Stockist',
             company: 'Loadmanna Inc',
             address:'Caloocan, Philippines',
-            logo:'./images/loadmanna.png',
+            logo:'../images/loadmanna.png',
             content:'./images/loadmanna1.jpg',
             alt:'No Photo Available'
         },
@@ -159,7 +159,7 @@ const experience = [
             title: 'Sangguniang Kabataan Federation President',
             company: 'Municipality of Gen. E. Aguinaldo, Cavite',
             address:'Gen. E. Aguinaldo',
-            logo:'./images/sk.png',
+            logo:'../images/sk.png',
             content:'./images/sk1.png',
             alt:'No Photo Available'
         },
@@ -169,7 +169,7 @@ const experience = [
             title: 'Internship',
             company: 'Alta Philippines I.T. Solutions and Web Page Design Inc',
             address:'Pasay City, Philippines',
-            logo:'./images/alta.png',
+            logo:'../images/alta.png',
             content:'./images/alta1.jpg',
             alt:'No Photo Available'
         },

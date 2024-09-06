@@ -36,9 +36,9 @@
 .portfolio-card{
     position: relative;
 
-    margin: 0.5%;
-    max-width: 30%;
-    padding: 1.165%;
+    margin: 1.2%;
+    max-width: 27%;
+    padding: 1.965%;
     width: 100%;
     box-shadow: 0 0 20px    rgba(0, 0, 0, 0.418);
     background: rgba(255, 255, 225, 0.05);
@@ -52,10 +52,17 @@
 
 
 }
+.portfolio-card-details{
+    color: #f4f4f4;
+
+}
+.portfolio-card-details h3{
+    padding: 10px 0px;
+}
 .portfolio-card-image{
     width: 100%;
     border-radius: 4px;
-    height: 400px;
+    height: 225px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -85,7 +92,7 @@
         max-width: 90%;
     }
     .portfolio-card-image{
-        height: 200px;
+        height: 175px;
     }
 }
 @media screen and (min-width: 671px) and (max-width: 920px){
@@ -95,7 +102,7 @@
         padding: 2%;
     }
     .portfolio-card-image{
-        height: 300px;
+        height: 200px;
     }
 }
 @media screen and (min-width: 1440px) {

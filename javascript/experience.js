@@ -67,7 +67,7 @@ for (let index = 0; index < experience.length; index++) {
     overlay.appendChild(company)
     overlay.appendChild(address)
     
-    opposite.style.setProperty('--background-image', `url('${element.logo}')`);
+    timeline_item.style.setProperty('--after-background', `url('${element.logo}')`);
 
 
 

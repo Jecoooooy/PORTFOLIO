@@ -13,6 +13,71 @@ const experienceTitle = experienceSection.children[1]
 const portfolioSection = document.getElementById('Portfolio')
 const GetInTouchSection = document.getElementById('get_in_touch')
 
+const navHome = document.getElementById('navHome')
+
+const navAbout = document.getElementById('navAbout')
+const navExperience = document.getElementById('navExperience')
+const navPortfolio = document.getElementById('navPortfolio')
+const navGetInTouch = document.getElementById('navGetInTouch')
+
+
+
+
+navHome.addEventListener('click', function() {
+    const targetPosition = mainPage.offsetTop ;
+    smoothScrollTo(targetPosition, 1000); 
+});
+navAbout.addEventListener('click', function() {
+    const targetPosition = aboutSection.offsetTop -50;
+    smoothScrollTo(targetPosition, 1000); 
+});
+navExperience.addEventListener('click', function() {
+    const targetPosition = experienceSection.offsetTop -50;
+    smoothScrollTo(targetPosition, 2000); 
+});
+navPortfolio.addEventListener('click', function() {
+    const targetPosition = portfolioSection.offsetTop -50;
+    smoothScrollTo(targetPosition, 1000); 
+});
+navGetInTouch.addEventListener('click', function() {
+    const targetPosition = GetInTouchSection.offsetTop -50;
+    smoothScrollTo(targetPosition, 1000); 
+});
+
+
+function smoothScrollTo(targetPosition, duration) {
+    const start = window.pageYOffset; // Starting Y scroll position
+    const distance = targetPosition - start; // Distance to scroll
+    const startTime = performance.now(); // Get the current time
+    
+    // Define the animation loop
+    function scrollStep(currentTime) {
+        const elapsed = currentTime - startTime; // Time elapsed since start
+        const progress = Math.min(elapsed / duration, 1); // Progress (0 to 1)
+
+        // Use an easing function for a smoother scroll (easeInOutQuad)
+        const easeInOutQuad = progress < 0.5 
+            ? 2 * progress * progress 
+            : -1 + (4 - 2 * progress) * progress;
+
+        const scrollAmount = start + distance * easeInOutQuad; // Current scroll position
+
+        // Scroll to the calculated position
+        window.scrollTo(0, scrollAmount);
+
+        // If the scroll isn't done, request the next animation frame
+        if (elapsed < duration) {
+            requestAnimationFrame(scrollStep);
+        }
+    }
+
+    // Start the animation
+    requestAnimationFrame(scrollStep);
+}
+
+
+
+
 
 window.addEventListener('scroll', function(event){
     const windowHeight = window.innerHeight;

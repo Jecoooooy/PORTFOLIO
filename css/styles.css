@@ -66,6 +66,9 @@
     .container {
         max-width: 100%;
     }
+    .text-container{
+        font-size: 30px!important;
+    }
 }
 /* Small screens (small tablets) */
 @media screen and (min-width: 401px) and (max-width: 767px) {

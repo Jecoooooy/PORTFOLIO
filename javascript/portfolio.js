@@ -12,7 +12,12 @@ for (let index = 0; index < portfolio.length; index++) {
     portfolio_image.src = element.photo
     let portfolio_card_content_details = document.createElement('div')
     portfolio_card_content_details.classList.add('portfolio-card-details')
-
+    let portfolio_card_title = document.createElement('h3')
+    portfolio_card_title.textContent = element.title
+    let portfolio_card_description = document.createElement('p')
+    portfolio_card_description.textContent = element.description
+    portfolio_card_content_details.appendChild(portfolio_card_title)
+    portfolio_card_content_details.appendChild(portfolio_card_description)
     portfolio_card_content_image.appendChild(portfolio_image)
     portfolio_card_content.appendChild(portfolio_card_content_image)
     portfolio_card_content.appendChild(portfolio_card_content_details)
