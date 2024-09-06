@@ -1,0 +1,42 @@
+.primary{
+    background-color: #607d8b;
+}
+.font-primary{
+    color: #607D8B;
+}
+.secondary{
+    background-color: #795548;
+}
+.font-secondary{
+    color: #795548;
+}
+.white{
+    background-color: #ECEFF1;
+}
+.font-white{
+    color: #ECEFF1;
+}
+
+
+
+
+
+
+/* !============================================================ */
+/* !                            colors                           */
+/* !============================================================ */
+.text-blue{
+    color: #2196F3;
+}
+.text-green{
+    color: #4CAF50;
+}
+.text-yellow{
+    color: #FFEB3B;
+}
+.text-red{
+    color: #F44336;
+}
+.text-white{
+    color: #FAFAFA;
+}

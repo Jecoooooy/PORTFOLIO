@@ -1,0 +1,22 @@
+
+.from-top{
+    transform: translateY(-40px);
+    opacity: 0;
+}
+.from-bottom{
+    transform: translateY(40px);
+    opacity: 0;
+}
+.from-left{
+    transform: translateX(-40px);
+    opacity: 0;
+
+}
+.from-right{
+    
+    transform: translateX(40px);
+    opacity: 0;
+}
+.hide {
+    opacity: 0;
+}

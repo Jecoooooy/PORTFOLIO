@@ -1,0 +1,41 @@
+#get_in_touch{
+    min-height: 50vh;  
+    padding-bottom: 10vh ;
+    background: linear-gradient(180deg, #B0BEC5,#ECEFF1);
+    overflow: hidden;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 44%;
+    background-color: #B0BEC5;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.593);
+    overflow: hidden;
+    padding:1.5%;
+    margin:1.5%;
+}
+.socials{
+    width: 100%;
+    position: relative;
+    max-width: 47%;
+    overflow: hidden;
+    padding:1.5%;
+}
+.icons a{
+    font-size: 40px;
+    margin: 0 20px;
+    color: #424242;
+}
+@media screen and (max-width: 670px) {
+    .map-container{
+        max-width: 90%;
+        padding:2.5%;
+        margin: 2.5%;
+    }
+    .socials{
+        max-width: 95%;
+        padding:2.5%;
+        margin: auto;
+    }
+}
