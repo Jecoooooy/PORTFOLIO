@@ -11,11 +11,15 @@
     position: relative;
     width: 100%;
     max-width: 44%;
-    background-color: #B0BEC5;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.593);
+    /* background-color: #B0BEC5; */
+    /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.593); */
     overflow: hidden;
     padding:1.5%;
     margin:1.5%;
+}
+.map-container  img{
+    object-fit: cover;
+    width: 100%;
 }
 .socials{
     width: 100%;
