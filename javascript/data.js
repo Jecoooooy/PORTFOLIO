@@ -195,4 +195,14 @@ const portfolio = [
         photo:'./images/wedding.jpg',
         description:'This webpage was created during my internship at Alta PH, with a focus on front-end development.'
     },
+    {
+        title:'Logistics Task Monitoring',
+        photo:'./images/logistics.png',
+        description:'This webpage was created Using Laravel for back-end and vue js vuetify for front-end.'
+    },
+    {
+        title:'International Billing',
+        photo:'./images/billing.png',
+        description:'This webpage was created Using Laravel for back-end and vue js vuetify for front-end.'
+    },
 ];
