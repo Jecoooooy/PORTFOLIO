@@ -198,6 +198,7 @@ const portfolio = [
     {
         title:'Logistics Task Monitoring',
         photo:'./images/logistics.png',
+        
         description:'This webpage was created Using Laravel for back-end and vue js vuetify for front-end.'
     },
     {
