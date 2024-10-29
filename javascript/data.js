@@ -198,12 +198,11 @@ const portfolio = [
     {
         title:'Logistics Task Monitoring',
         photo:'./images/logistics.png',
-        
         description:'This webpage was created Using Laravel for back-end and vue js vuetify for front-end.'
     },
     {
         title:'International Billing',
-        photo:'./images/billing.png',
+        photo:'./images/billing.PNG',
         description:'This webpage was created Using Laravel for back-end and vue js vuetify for front-end.'
     },
 ];
